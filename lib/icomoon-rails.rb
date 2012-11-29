@@ -1,7 +1,7 @@
-require "icomoon-rails/version"
+require 'icomoon-rails/version'
+require 'icomoon-rails/engine'
 
 module Icomoon
   module Rails
-    # Your code goes here...
   end
 end
