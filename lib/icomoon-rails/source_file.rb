@@ -14,7 +14,9 @@ class SourceFile < Thor
   def move
     self.destination_root = 'vendor/assets'
     copy_file "#{@extract_path}/style.css", "stylesheets/#{@name}/style.css"
-    copy_file "#{@extract_path}/lte-ie7.js", "javascripts/#{@name}/lte-ie7.js"
+    if File.exist? "#{@extract_path}/lte-ie7.js"
+      copy_file "#{@extract_path}/lte-ie7.js", "javascripts/#{@name}/lte-ie7.js"
+    end
     copy_file "#{@extract_path}/license.txt", "stylesheets/#{@name}/license.txt"
     empty_directory "fonts/#{@name}"
     directory "#{@extract_path}/fonts", "fonts/#{@name}"

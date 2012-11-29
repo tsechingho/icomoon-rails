@@ -22,7 +22,7 @@ And then execute:
 
 Add to your `app/assets/stylesheets/application.css`
 
-    *= require icomoon-free
+    *= require icomoon-free/style
 
 ### IE7 suppot
 
