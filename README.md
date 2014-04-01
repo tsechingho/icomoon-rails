@@ -2,7 +2,7 @@
 
 [IcoMoon](http://icomoon.io/) provides an [application](http://icomoon.io/#app-features) to create your own icon fonts, and also releases an [icon pack for free](http://icomoon.io/#icons).
 
-The `icomoon-rails` gem integrates the free icon pack of `IcoMoon` with the Rails asset pipeline. It also provide a way to fork with your won icon fonts.
+The `icomoon-rails` gem integrates the free icon pack of `IcoMoon` with the Rails asset pipeline. It also provide a way to fork with your own icon fonts.
 
 It is highly recommanded to create your own fork.
 
